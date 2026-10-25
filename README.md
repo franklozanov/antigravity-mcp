@@ -36,7 +36,7 @@ Cuando el repositorio sea público:
 claude mcp add antigravity-bridge \
   -e ANTIGRAVITY_API_KEY=tu_clave \
   -e ANTIGRAVITY_API_URL=https://tu-endpoint \
-  -- uvx --from git+https://github.com/TU_USUARIO_GITHUB/antigravity-mcp.git antigravity-mcp
+  -- uvx --from git+https://github.com/franklozanov/antigravity-mcp.git antigravity-mcp
 ```
 
 Alternativa con pipx:
@@ -44,7 +44,7 @@ Alternativa con pipx:
 ```bash
 claude mcp add antigravity-bridge \
   -e ANTIGRAVITY_API_KEY=tu_clave \
-  -- pipx run --spec git+https://github.com/TU_USUARIO_GITHUB/antigravity-mcp.git antigravity-mcp
+  -- pipx run --spec git+https://github.com/franklozanov/antigravity-mcp.git antigravity-mcp
 ```
 
 Las variables también pueden venir de un `.env` en el directorio de trabajo o de variables globales del sistema.
